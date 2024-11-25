@@ -13,8 +13,8 @@ from Adafruit_IO import Client, RequestError, Feed  # Conexión con Adafruit IO
 import time
 
 ### Configuramos la conexión con Adafruit IO
-ADAFRUIT_IO_USERNAME = "GSR11"  
-ADAFRUIT_IO_KEY = "aio_dFKA74ESoPmI4fBGTq1o8kI0S9yF"
+ADAFRUIT_IO_USERNAME = "IO_USERNAME"  
+ADAFRUIT_IO_KEY = "IO_KEY"
 # Creamos una instancia para que trabaje como el cliente de conexión
 con_aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 # Creamos los feeds donde alojaremos los datos de las diferentes funciones
